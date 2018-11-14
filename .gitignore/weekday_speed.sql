@@ -23,4 +23,4 @@ WHEN EXTRACT(day FROM basetimestamp)  =29   THEN 6
 WHEN EXTRACT(day FROM basetimestamp)  =30   THEN 7
  ELSE 0 
  end as day_week
-from   public.here_roadway_flow  where basetimestamp > '2018-9-28 0:0:0' and basetimestamp < '2018-10-4 0:0:0'  limit 100
+from   public.here_roadway_flow  where basetimestamp > '2018-9-28 0:0:0' and basetimestamp < '2018-10-4 0:0:0'  
